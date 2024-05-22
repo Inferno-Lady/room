@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() {
+    float side, area;
+
+    printf("Please enter the length of one side of the square room: ");
+    scanf("%f", &side);
+
+    area = side * side;
+
+    printf("The area of the square room is: %.2f", area);
+
+    return 0;
+}
